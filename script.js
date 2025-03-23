@@ -8,6 +8,8 @@ function diceRoll(){
     if(player1Random === player2Random){
         alert("Match Draw");
         document.querySelector("h1").innerText = "Match Draw ❌";
+        document.querySelector(".player2 h2").innerText = "Player 2";
+        document.querySelector(".player1 h2").innerText = "Player 1 ";
         
     }else if(player1Random < player2Random){
         // alert("Player 2 win");
