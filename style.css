@@ -1,0 +1,44 @@
+body{
+    background-color: #D69ADE;
+}
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.main{
+    width: 100%;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.btn{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    padding: 20px 60px;
+    border-radius: 50px;
+    background-color: #AA60C8;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover{
+    padding: 19px 55px;
+    background-color: #aa63c6;
+}
