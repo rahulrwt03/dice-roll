@@ -1,5 +1,10 @@
 body{
     background-color: #D69ADE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -43,24 +48,29 @@ button:hover{
     background-color: #aa63c6;
 }
 
-@media (maxwidth: 600px){
+@media (max-width: 600px){
     .body{
         width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     
     h2{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     
     p{
-        font-size: 0.9rem;
+        font-size: 2rem;
     }
 
     .main{
-        width: 100%;
+    width: 100%;
     padding: 15px;
+    height: 100%;
     }
 }
